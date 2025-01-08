@@ -1,0 +1,90 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(to right, #8EC5FC, #E0C3FC);
+    }
+
+    .card-container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #3E8DE5;
+      color: #ffffff;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .tag.food {
+      background-color: #CFA15B;
+      color: hsl(0, 0%, 100%);
+    }
+
+    .tag.automobile {
+      background-color: hsl(0, 100%, 49%);
+      color: hsl(0, 0%, 100%);
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0 0 10px;
+    }
+
+    .card-text {
+      font-size: 14px;
+      color: #6c757d;
+      margin: 0 0 20px;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: auto;
+    }
+
+    .card-footer img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .card-footer .author {
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .card-footer .time {
+      font-size: 12px;
+      color: #6c757d;
+    }
