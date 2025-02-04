@@ -1,126 +1,295 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>LogoBakery Navigation Bar</title>
-    <style>
-        body {
-            background-color: #e6f0ff; /* Light blue background */
-        }
-
-        nav {
-            background-color: #222; /* Dark gray background */
-            height: 50px; /* Set the height of the navigation bar */
-            display: flex; /* Use flexbox for layout */
-            align-items: center; /* Center items vertically */
-            justify-content: space-between; /* Space items evenly */
-            padding: 0 20px; /* Add some padding for spacing */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-        }
-
-        nav a {
-            color: #fff; /* White text color */
-            text-decoration: none; /* Remove underline */
-            margin-right: 20px; /* Add some spacing between links */
-            font-size: 16px; /* Set the font size */
-        }
-
-        nav button {
-            background-color: #0099cc; /* Blue background color */
-            color: #fff; /* White text color */
-            border: none; /* Remove default border */
-            padding: 10px 20px; /* Add padding to the button */
-            border-radius: 5px; /* Make the button rounded */
-            cursor: pointer; /* Change cursor on hover */
-        }
-
-        <style>
-        body {
-            background-color: #e6f0ff; /* Light blue background */
-        }
-
-        nav {
-            background-color: #222; /* Dark gray background */
-            height: 50px; /* Set the height of the navigation bar */
-            display: flex; /* Use flexbox for layout */
-            align-items: center; /* Center items vertically */
-            justify-content: space-between; /* Space items evenly */
-            padding: 0 20px; /* Add some padding for spacing */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-        }
-
-        nav a {
-            color: #fff; /* White text color */
-            text-decoration: none; /* Remove underline */
-            margin-right: 20px; /* Add some spacing between links */
-            font-size: 16px; /* Set the font size */
-        }
-
-        nav button {
-            background-color: #0099cc; /* Blue background color */
-            color: #fff; /* White text color */
-            border: none; /* Remove default border */
-            padding: 10px 20px; /* Add padding to the button */
-            border-radius: 5px; /* Make the button rounded */
-            cursor: pointer; /* Change cursor on hover */
-        }
-
-        <style>
-        body {
-            background-color: #e6f0ff; /* Light blue background */
-        }
-
-        nav {
-            background-color: #222; /* Dark gray background */
-            height: 50px; /* Set the height of the navigation bar */
-            display: flex; /* Use flexbox for layout */
-            align-items: center; /* Center items vertically */
-            justify-content: space-between; /* Space items evenly */
-            padding: 0 20px; /* Add some padding for spacing */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-        }
-
-        nav a {
-            color: #fff; /* White text color */
-            text-decoration: none; /* Remove underline */
-            margin-right: 20px; /* Add some spacing between links */
-            font-size: 16px; /* Set the font size */
-        }
-
-        nav button {
-            background-color: #0099cc; /* Blue background color */
-            color: #fff; /* White text color */
-            border: none; /* Remove default border */
-            padding: 10px 20px; /* Add padding to the button */
-            border-radius: 5px; /* Make the button rounded */
-            cursor: pointer; /* Change cursor on hover */
-        }
-    </style>
-    </style>
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <nav>
-        <a href="#">Services</a>
-        <a href="#">Projects</a>
-        <a href="#">About</a>
-        <button>Contact</button>
-        <a href="./contact.html">LogoBakery</a>
-    </nav>
-    <br><br><br><br><br><br><br><br>
-    <nav>
-        <a href="#">LogoBakery</a>
-        <a href="#">Services</a>
-        <a href="#">Projects</a>
-        <a href="#">About</a>
-        <button>Contact</button>
-    </nav>
-    <br><br><br><br><br><br><br><br>
-    <nav>
-        <a href="#">LogoBakery</a>
-        <a href="#">Services</a>
-        <a href="#">Projects</a>
-        <a href="#">About</a>
-        <button>Contact</button>
-    </nav>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  ">
+        
+        <div class="container col-12  d-flex justify-content-evenly position-top-fixedy w-20  ">
+            <i class="fa-brands fa-apple"></i>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <ul class="navbar-nav  ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mac</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">iPad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">iPhone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Watch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Vision</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Airpods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TV & Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Entertainment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Accessories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+              </li>
+             
+                
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+       <br><br>
+    <!-- image start -->
+     <div class="col-12">
+    <div><img   src="./hero_iphone16pro_avail__fnf0f9x70jiy_large.jpg"  class="img w-100 "  alt="..."></div>
+    <br>
+    
+    <div><img src="./hero_iphone16_avail__euwzls69btea_large.jpg" class="img w-100" alt="..."></div>
+    <br>
+    
+    <div>
+    <img src="./hero_apple_watch_series_10_avail_lte__esu66gaw6dci_large.jpg" class="img w-100" alt="..."></div>
+    <br>
+    <div class="img d-flex gap-2 ">
+        <img src="./promo_apple_watch_unity__casvx9ysh1le_large.jpg" class="img w-60" alt="...">
+        <img src="./promo_valentines_day_2025_announce__e7vadslxheaa_large.png" class="img w-60" alt="...">
+    </div>
+    <br>
+    <div class="content d-flex gap-2 ">
+        <img src="./laptop image.jpg" class="img-fluid " alt="...">
+        <img src="./ipad image.jpg" class="img-fluid" alt="...">
+    </div>
+    <br>
+    <div class="contact d-flex gap-2">
+        <img src="./mobile image.jpg" class="img-fluid" alt="...">
+        <img src="./card image.jpg" class="img-fluid" alt="...">
+    </div>
+</div>
+    <!-- image end -->
+     <!-- carousel start -->
+     <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators col-12">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./980x5514.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./980x5519.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./980x5517.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./980x5513.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./980x5515.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./980x55110.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./980x5518.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./980x5512.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel end -->
+      <br><br><br>  
+       <!-- infomation start -->
+        <main class="para col-12">
+            <div class="about">
+                <br>
+            <p>
+                1. Trade‑in values will vary based on the condition, year, and configuration of your eligible trade‑in device. Not all
+                 devices are eligible for credit. You must be at least the age of majority to be eligible to trade in for credit or for an
+                  Apple Gift Card. Trade‑in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card.
+                   Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was
+                    made. Sales tax may be assessed on full value of a new device purchase. In‑store trade‑in requires presentation of
+                     a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and
+                      may vary between in‑store and online trade‑in. Some stores may have additional requirements. Apple or its trade‑in
+                       partners reserve the right to refuse, cancel, or limit quantity of any trade‑in transaction for any reason. More
+                        details are available from Apple’s trade-in partner for trade‑in and recycling of eligible devices. Restrictions
+                         and limitations may apply.
+            </p>
+            <p>
+                To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to
+                 Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit 
+                 approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake
+                  City Branch.
+            </p>
+            <p>
+                If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.
+                
+                </p>
+                <p>
+                    Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.
+                </p>
+                <p>
+                    Apple Intelligence is available in beta on all iPhone 16 models, iPhone 15 Pro, iPhone 15 Pro Max, iPad mini (A17 Pro),
+                     and iPad and Mac models with M1 and later, with Siri and device language set to English (Australia, Canada, Ireland,
+                      New Zealand, South Africa, UK, or U.S.), as part of an iOS 18, iPadOS 18, and macOS Sequoia software update.
+                      <br>
+                      Additional features and languages will be available in April, with more languages coming over the course of the year.
+                       Languages supported in 2025 include Chinese, English (India, Singapore), French, German, Italian, Japanese, Korean, 
+                       Portuguese, Spanish, and Vietnamese.
+                </p>
+                <p>
+                    A subscription is required for Apple Arcade, Apple Fitness+, Apple Music, and Apple TV+.
+                </p>
+                <p>
+                    Features are subject to change. Some features, applications, and services may not be available in all regions or all languages.
+                </p>
+                <hr>
+                <div class="paragraph">
+                 <p><b>Shop and Learn</b> 
+                 <br><br>
+               Store<br><br>
+               Mac<br><br>
+               iPad<br><br>
+               iPhone<br><br>
+               Watch<br><br>
+               
+                Vision
+                <br><br>
+                AirPods
+                <br><br>
+                TV & Home
+                <br><br>
+                AirTag
+                <br><br>
+                Accessories
+                <br><br>
+                Gift Cards<br><br>
+                Apple Wallet<br><br>
+                Wallet<br><br>
+                Apple Card<br><br>
+                Apple Pay<br><br>
+                Apple Cash<br><br>
+               </p>
+               <p>
+                <b>Account</b> <br></br>
+                Manage Your Apple Account<br></br>
+                Apple Store Account<br></br>
+                iCloud.com<br></br>
+                <b>Entertainmen</b>t<br></br>
+                Apple One<br></br>
+                Apple TV+<br></br>
+                Apple Music<br></br>
+                Apple Arcade<br></br>
+                Apple Fitness+<br></br>
+                Apple News+<br></br>
+                Apple Podcasts<br></br>
+                Apple Books<br></br>
+                App Store<br></br>
+               </p>
+               <p>
+            <b>Apple Store</b><br></br>
+            Find a Store<br></br>
+            Genius Bar<br></br>
+            Today at Apple<br></br>
+            Group Reservations<br></br>
+            Apple Camp<br></br>
+            Apple Store App<br></br>
+            Certified Refurbished<br></br>
+            Apple Trade In<br></br>
+            Financing<br></br>
+            Carrier Deals at Apple<br></br>
+            Order Status<br></br>
+            Shopping Help<br></br>
+               </p>
+               <p>
+                <b>For Business</b> <br><br>
+                Apple and Business<br><br>
+                Shop for Business<br><br>
+                <b>For Education</b><br><br>
+                Apple and Education<br><br>
+                Shop for K-12<br><br>
+                Shop for College<br><br>
+                <b>For Healthcare</b><br><br>
+                Apple in Healthcare<br><br>
+                Mac in Healthcare<br><br>
+                Health on Apple Watch<br><br>
+                Health Records on iPhone and<br><br>
+                iPad<br><br>
+                <b>For Government</b><br><br>
+                Shop for Government<br><br>
+                Shop for Veterans and Military<br><br>
+               </p>
+               <p>
+                <b>Apple Values</b> <br><br>
+                Accessibility<br><br>
+                Education<br><br>
+                Environment<br><br>
+                Inclusion and Diversity<br><br>
+                Privacy<br><br>
+                Racial Equity and Justice<br><br>
+                Supply Chain<br><br>
+                <b>About Apple</b><br><br>
+                Newsroom<br><br>
+                Apple Leadership<br><br>
+                Career Opportunities<br><br>
+                Investors<br><br>
+                Ethics & Compliance<br><br>
+                Events<br><br>
+                Contact Apple<br><br>
+               </p>
+            </div>
+            </div>
+        </main>
+        <!-- infomation end -->
+         
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>
